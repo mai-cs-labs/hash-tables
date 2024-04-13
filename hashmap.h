@@ -3,14 +3,14 @@
 
 #include <stdbool.h>
 #include <stddef.h>
+#include "string.h"
 
 typedef struct hash_map HashMap;
 
 // Key type, change it according to your task variant
 typedef void HashMapKey;
 
-// Value type, change it according to your task variant
-typedef void HashMapValue;
+typedef String HashMapValue;
 
 typedef struct hash_map_pair {
     HashMapKey key;
